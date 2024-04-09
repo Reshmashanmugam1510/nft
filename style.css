@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:url(images/back.jpg) ;
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color: #fff;
+}
+nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+nav ul{
+    flex: 1;
+    margin-top: 30px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav .btn{
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.content{
+    margin-top: 8%;
+}
+.content h1{
+    font-size: 88px;
+    margin-bottom:5px;
+    margin-left: 65px;
+    
+}
+.content p{
+    margin-left: 70px;
+    color: #fff;
+    text-size-adjust: 70px;
+}
+.content h1 span{
+    color: #1579cb;
+}
+.content .btn{
+    display: inline-block;
+    margin-top: 30px;
+    background: #b40e77;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-left: 70px;
+}
+.content .btn:hover{
+    color: #f46695f5;
+}
+.coin-list{
+    position: absolute;
+    right: 10%;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.coin{
+    display: flex;
+    align-items:center;
+    font-size: 14px;
+    margin: 10px 15px;
+    color:#1579cb;
+    border: 2px solid #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.coin img{
+    width: 40px;
+    margin-right: 10px;
+}
+.coin h3{
+    color: #fff;
+    margin-bottom: 5px;
+}
